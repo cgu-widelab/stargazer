@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+	<style name="UnityThemeSelector" parent="BaseUnityTheme">
+		<item name="android:windowBackground">@android:color/black</item>
+	</style>
+
+	<style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+
+	<style name="BaseUnityTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen"/>
+
+
+	<style name="spinnerItemStyle"
+		parent="Base.Widget.AppCompat.DropDownItem.Spinner">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:background">@mipmap/background</item>
+	</style>
+
+	<style name="MyDatePicker" parent="android:Widget.Material.Light.DatePicker">
+		<item name="android:textColor">@color/white</item>
+	</style>
+
+
+</resources>

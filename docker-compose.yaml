@@ -1,0 +1,44 @@
+version: '3.7'
+services:
+  db:
+    build:
+      context: db
+      dockerfile: Dockerfile
+    container_name: stargazer-db
+    restart: always
+    volumes:
+      - ./db/sqls:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_USER: stargazer
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db-root-password
+      MYSQL_PASSWORD_FILE: /run/secrets/db-stargazer-password
+    secrets:
+      - db-root-password
+      - db-stargazer-password
+    ports:
+      - 3306:3306
+  auto-update:
+    build:
+      context: auto_update
+      dockerfile: Dockerfile
+    container_name: stargazer-auto-update
+    secrets:
+      - db-stargazer-password
+    depends_on:
+      - db
+  backend:
+    build:
+      context: php
+      dockerfile: Dockerfile
+    container_name: stargazer-php
+    secrets:
+      - db-stargazer-password
+    ports:
+      - 80:80
+    depends_on:
+      - db
+secrets:
+  db-root-password:
+    file: db/root-password.txt
+  db-stargazer-password:
+    file: db/stargazer-password.txt

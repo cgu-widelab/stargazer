@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Stargazer</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="password_waring">※密碼不可更動</string>
+    <string name="sign_in">登入</string>
+    <string name="register">註冊</string>
+    <string name="hello_stargazer">歡迎使用Stargazer</string>
+    <string name="search_star_data">查詢星座資料</string>
+    <string name="search_star_place">查詢觀星地點</string>
+    <string name="my_favorite">我的最愛</string>
+    <string name="test_user">測試帳號</string>
+    <string name="switch_user">切換使用者</string>
+    <string name="star_data">星座資料</string>
+    <string name="sky_picture">天頂圖</string>
+    <string name="find_by_key_word">透過關鍵字尋找</string>
+    <string name="seasonal_star">當季常見星座</string>
+    <string name="search_result">搜尋結果</string>
+    <string name="star_name">星座名稱</string>
+    <string name="section">地區</string>
+    <string name="date">日期</string>
+    <string name="go">Go</string>
+    <string name="filter_result">篩選結果</string>
+    <string name="test_section">測試區域</string>
+    <string name="today_sunset_time">今日日落時間</string>
+    <string name="route_planning">交通路線規劃</string>
+    <string name="departure">出發地</string>
+    <string name="destination">目的地</string>
+    <string name="start">start</string>
+    <string name="search_sky_picture">查詢天頂圖</string>
+    <string name="time">時間</string>
+    <string name="stargaze_date">預計觀星日期</string>
+    <string name="why_address">為什麼我要提供這個</string>
+
+    <string name="default1">default1</string>
+    <string name="default2">default2</string>
+    <string name="default3">default3</string>
+    <string name="default_placeName">default_placeName</string>
+    <string name="default_placeAddress">default_placeAddress</string>
+
+    <string name="user_account">使用者帳號</string>
+    <string name="user_password">使用者密碼</string>
+    <string name="default_address">預設地址</string>
+    <string name="other_address">其餘地址</string>
+    <string name="default_road_address">OO路XX巷</string>
+
+    <string name="sharedPreference_Key">user_name</string>
+    <string name="star_english_name">星座原文名稱</string>
+    <string name="star_right_ascension">赤經角度</string>
+    <string name="star_angle">星座仰角位置</string>
+    <string name="star_family">星座家族</string>
+    <string name="star_introduce">星座相關介紹</string>
+    <string name="user">user</string>
+    <string name="bundle_place_key">place_key</string>
+    <string name="bundle_date_key">date</string>
+    <string name="bundle_city_key">city</string>
+
+    <string name="more_weather_description">更詳細的\n天氣資訊</string>
+
+    <string name="dd_date_string">天氣預報時間</string>
+    <string name="T_string">溫度</string>
+    <string name="RH_string">相對\n溼度</string>
+    <string name="PoP_string">降雨\n機率</string>
+    <string name="CI_string">舒適度</string>
+    <string name="Wx_string">雲量</string>
+    <string name="WD_string">天氣描述</string>
+
+    <string name="bundle_year_key">year</string>
+    <string name="bundle_month_key">month</string>
+    <string name="bundle_day_key">day</string>
+
+    <string name="data_progress">資料處理中</string>
+    <string name="favoriteStarString">最愛星座</string>
+    <string name="favoritePlace">最愛地點</string>
+
+    <string name="bundle_selected_star_key">starPicked</string>
+
+    <string name="game_view_content_description">Game view</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:focusableInTouchMode="false"
+    android:focusable="false"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/listViewLayout2Button1_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/default1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:background="@drawable/button2"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        >
+        <Button
+            android:id="@+id/listViewLayout2Button2_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/default2"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/button2"
+            android:textColor="@color/white"
+
+            android:focusable="false"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+    >
+        <Button
+            android:id="@+id/listViewLayout2Button3_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/default3"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:background="@drawable/button2"
+            android:focusableInTouchMode="false"
+            android:textColor="@color/white"
+            android:focusable="false"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
